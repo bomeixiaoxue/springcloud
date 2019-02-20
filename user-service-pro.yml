@@ -27,4 +27,4 @@ spring:
     publisher-confirms: true
     virtual-host: /
 
-foo: foo version 5
+foo: foo version 6
