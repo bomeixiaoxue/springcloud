@@ -27,5 +27,10 @@ spring:
     password: guest
     publisher-confirms: true
     virtual-host: /
-
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*
 foo: user-foo version 4
