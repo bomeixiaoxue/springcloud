@@ -27,5 +27,8 @@ spring:
     password: guest
     publisher-confirms: true
     virtual-host: /
+feign:
+  hystrix:
+    enabled: true
     
 foo: user-foo version 4
