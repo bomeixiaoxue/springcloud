@@ -17,7 +17,7 @@ spring:
         clusters: default
         location: monitor-service
   main:
-    allow-bean-definition-overriding=true
+    allow-bean-definition-overriding: true
 
 eureka:
   instance:
