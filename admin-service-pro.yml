@@ -16,8 +16,6 @@ spring:
       turbine:
         clusters: default
         location: monitor-service
-  main:
-    allow-bean-definition-overriding: true
 
 eureka:
   instance:
